@@ -4,7 +4,7 @@ A hands-on Terraform repository covering AWS infrastructure provisioning, EC2 pu
  
 ---
  
-## Learning Objectives — Today's Class
+## Learning Objectives 
  
 By the end of this session, the following concepts were covered:
  
@@ -461,7 +461,7 @@ terraform destroy
  
 ---
  
-# 8. Key Troubleshooting Notes From Today
+# 8. Key Troubleshooting Notes 
  
 * `terraform init` reporting "empty directory" almost always means either the file extension was wrong (`.txt` instead of `.tf`), or the command was run from the wrong folder/user's home directory.
 * GitHub blocks pushes containing any file over 100 MB — committing the `.terraform/` provider binaries by accident will cause a `pre-receive hook declined` error. Fix by adding `.gitignore` *before* the first commit, or by resetting git history if it's already baked in.
