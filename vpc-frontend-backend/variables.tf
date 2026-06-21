@@ -1,9 +1,9 @@
 variable "aws_region" {
-  default = "us-east-2"
+  default = "ap-south-1"
 }
 
 variable "availability_zone" {
-  default = "us-east-2a"
+  default = "ap-south-1a"
 }
 
 variable "vpc_cidr" {
@@ -19,11 +19,11 @@ variable "private_subnet_cidr" {
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "ami_id" {
-  default = "ami-0741dc526e1106ae5"
+  default = "ami-0e38835daf6b8a2b9"
 }
 
 variable "key_name" {
